@@ -23,14 +23,14 @@
 <BODY background="background.png">
 <img src="Untitled.png" id="bigShit" height="124" width="124" style="position:absolute;left:40%;width:20%;top:30%;height:auto;" >
   <p> "Shit"</P>
-  <img src="speech.png" id="Speach" height="200" width="400" style="position: absolute; right:5%; bottom:20%; display: none;" >
-  <p id="factsandwisdons" style="position: absolute; right:5%; bottom:20%; display: none;" > </p>
+  <img src="speech.png" id="Speach" height="200" width="600" style="position: absolute; right:0%; bottom:20%; display: none;" >
+  <pre id="factsandwisdons" style="position: absolute; right:10%; bottom:28%"> </pre>
   <img src="clippy_silence.png" id="shitty" onmouseover="ShitOver(this)" onmouseout="Shitofff()" height="124" width="124" style="position: absolute; right:10%; bottom:0%" onclick="image()">
 </BODY>
 <script src="sound.js"></script>
 <script type="text/javascript">
 var flip = false;
-var text = ["Do you have blood in your stool? that can only be a good thing!", "One-Shit wonder", "Shit as a fiddle", "Hissy Shit", "If Shit ain't broke, don't fix Shit", "Did you know that diarrhea is hereditary?\nIt runs in your genes.", "Did you know that diarrhea is hereditary?\nIt runs in your genes.", "What did one fly say to the other?\nIs this stool taken?"];
+var text = ["Do you have blood in your stool? \n that can only be a good thing!", "One-Shit wonder", "Shit as a fiddle", "Hissy Shit", "If Shit ain't broke, don't fix Shit", "Did you know that diarrhea is hereditary?\nIt runs in your genes.", "What did one fly say to the other?\nIs this stool taken?"];
 function image() {
   if(!flip){
     var l = text[Math.floor(Math.random() * (text.length))];
